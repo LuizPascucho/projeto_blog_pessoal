@@ -26,7 +26,7 @@ import com.generation.blogpessoal.service.UsuarioService;
 public class UsuarioControllerTest {
 	
 	@Autowired
-	private TestRestTemplate testRestTemplate;
+	private TestRestTemplate testRestTemplate;  // simula o Imnsominia para o ambiente de teste
 	
 	@Autowired
 	private UsuarioService usuarioService;
